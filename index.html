@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Fetch API: consulta de CEP</title>
+	<link href="main.css" rel="stylesheet">
+	<script src="cep.js" defer></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>Consulta de CEP</h1>
+
+		<label for="cep">CEP</label>
+
+		<input data-mask="00000-000" placeholder="12345-678" type="text" name="cep" id="cep" autofocus>
+
+		<button id="btnPesquisar">Pesquisar</button>
+	</div>
+
+	<div class="result">
+		<p id="saida">Resultado</p>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+		integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
